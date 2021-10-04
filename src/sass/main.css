@@ -3,7 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,7 +54,7 @@ table {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
@@ -97,7 +97,7 @@ img {
   border: 2px solid #88dd9b;
   padding: 13px 22px;
   border-radius: 5px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-weight: bold;
   color: #88dd9b;
   width: -moz-fit-content;
@@ -227,7 +227,7 @@ img {
 }
 
 .button {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
@@ -405,7 +405,7 @@ img {
 }
 
 .nav {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -974,7 +974,7 @@ img {
 }
 
 .product__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-weight: bold;
   font-size: 42px;
   margin-bottom: 20px;
@@ -989,7 +989,7 @@ img {
 
 .product__category {
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 25px;
@@ -1003,7 +1003,7 @@ img {
 }
 
 .product__price {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: 600;
@@ -1130,7 +1130,7 @@ img {
 }
 
 .store__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 48px;
   line-height: 60px;
   color: #273132;
@@ -1228,7 +1228,7 @@ img {
   padding: 15px 20px;
   margin: 0;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 20px;
   white-space: nowrap;
 }
@@ -1415,7 +1415,7 @@ img {
 }
 
 .bulletpoint__section-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 42px;
   margin-bottom: 24px;
   color: #273132;
@@ -1575,7 +1575,7 @@ main.content {
 }
 
 .page__section-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 42px;
   margin-bottom: 24px;
   color: #273132;
@@ -1675,7 +1675,7 @@ main.content {
 }
 
 .hero__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   color: #fff;
   position: relative;
 }
@@ -1729,7 +1729,7 @@ main.content {
 
 .faq__question {
   line-height: 32px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 30px;
@@ -1834,7 +1834,7 @@ main.content {
 
 .contact__title {
   line-height: 56px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 46px;
   color: #273132;
   margin-bottom: 50px;
@@ -2050,7 +2050,7 @@ main.content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-weight: bold;
   font-size: 24px;
 }
@@ -2073,7 +2073,7 @@ main.content {
 
 .hamburger__nav-link {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 32px;
 }
 
@@ -2136,7 +2136,7 @@ main.content {
 }
 
 .header-section__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-weight: bold;
   font-size: 64px;
   max-width: 600px;
@@ -2218,7 +2218,7 @@ main.content {
 }
 
 .quotes__author {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   color: #384647;
   font-weight: bold;
   text-transform: uppercase;
@@ -2466,7 +2466,7 @@ main.content {
 }
 
 .promo__title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Handlee", cursive;
   font-size: 48px;
   font-weight: bold;
 }
