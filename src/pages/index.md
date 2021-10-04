@@ -7,7 +7,7 @@ sections:
     background_image: images/header.jpg
     background_image_opacity: 65
     content: >
-      # RRReal, beautiful plants right to your door
+      # Real, beautiful plants right to your door
 
 
       Don't forget to add your Snipcart API key to the site's configuration to
