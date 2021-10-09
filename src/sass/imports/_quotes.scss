@@ -3,6 +3,7 @@
   background-color: $color_lightest;
   border-radius: 15px;
   padding: 60px;
+
   @include smaller-than-tablet {
     padding: 25px;
   }
@@ -17,7 +18,7 @@
     margin-bottom: $spacing--unit*4;
     width: -moz-fit-content;
     width: fit-content;
-    fill: $color_active;
+    fill: $color_dark;
   }
 
   &__text {
@@ -45,6 +46,7 @@
     width: 1px;
     height: 230px;
     background-color: $color_light;
+
     &:last-child {
       display: none;
     }
@@ -52,6 +54,7 @@
 
   @include smaller-than-tablet {
     flex-direction: column;
+
     &__separator {
       height: 1px;
       width: 100%;

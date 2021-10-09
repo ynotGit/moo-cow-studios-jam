@@ -17,6 +17,7 @@
     @include smaller-than-tablet {
       display: none;
     }
+
     margin: 0 auto;
     display: grid;
     display: flex;
@@ -27,6 +28,7 @@
     font-size: $font_size_regular;
     font-weight: bold;
     list-style: none;
+
     &:not(:last-child) {
       margin-right: $spacing--unit * 5;
     }
@@ -38,15 +40,18 @@
   }
 
   &__logo {
-    width: 25%;
+    width: 18%;
   }
+
   &__logo-image {
     height: 45px;
   }
+
   &__total-items {
     @include smaller-than-tablet {
       display: none;
     }
+
     font-weight: bold;
     color: inherit;
     font-size: $font_size_regular;
@@ -113,6 +118,7 @@
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+
   @include smaller-than-tablet {
     padding-top: 25px;
   }

@@ -8,8 +8,8 @@
     "bg_image_secondary": "/images/leaf-light-grey.svg",
     "bg_image_product": "/images/leaf.svg",
     "snipcart_api_key": "NjA5NmJkMTktMzIzNi00ODdhLTg3MjItZTFiZWRlZjBkNTNhNjM3NTk4NzExNjU2MjE0Njg5",
-    "footer_text": "Copyright 2021 Moo Cow Studios. All rights reserved.",
-    "palette": "green",
+    "footer_text": "Copyright Moo Cow Studios 2021",
+    "palette": "moo-pink",
     "main_menu": [
         {
             "title": "Collections",
@@ -35,8 +35,13 @@
             "title": "About",
             "url": "/about",
             "style": "link"
+        },
+        {
+            "title": "Contact",
+            "url": "/contact",
+            "style": "link"
         }
     ],
     "title": "Moo Cow Studios",
-    "domain": "https://moo-cow-studios-jam.netlify.app"
+    "domain": "https://moocowstudios.com"
 }

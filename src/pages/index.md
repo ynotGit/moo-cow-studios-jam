@@ -7,20 +7,18 @@ sections:
     background_image: images/header.jpg
     background_image_opacity: 65
     content: >
-      # Real, beautiful plants right to your door
+      # Bring Some Magic To Your Kingdom
 
 
-      Don't forget to add your Snipcart API key to the site's configuration to
-      enable Cart actions.
+      Discover Our Range Of Disney Inspired Prints
     actions:
-      - title: See all items
+      - title: Shop Now
         url: /store
-        arrow: true
+        arrow: false
         style: primary
   - type: featured_products_section
     section_id: best_sellers_section
-    title: Best sellers
-    icon: true
+    icon: false
     light_title: true
     featured_products:
       - src/pages/products/plant1.md
@@ -40,26 +38,25 @@ sections:
           name: John Dope
           location: 'Colorado, USA'
         text: >-
-          I didn't know the Snipcart guys were into herbs as well! How beautiful
-          is that Planty theme. I'm going to launch a killer JAMstack e-commerce
-          store using this for sure.
+          Test
       - author:
           name: Major Payne
           location: 'VA, USA'
         text: >-
           Well I'll be d*mned. These plants really ARE greener than any of my
           recruits.
+          
   - type: promotion_section
     section_id: promotion_section
-    title: A new home interior for summer
-    subtitle: from $149.99
+    title: Let's Get Personal
+    subtitle: We Do Bespoke Art Work
     image: images/promo.jpg
-    background_image: images/leaf.svg
+    background_image: images/mc-bg.jpg
     cta:
-      title: Discover
-      url: /store
+      title: Get In Touch
+      url: /contact
       style: secondary
-      arrow: true
+      arrow: false
 seo:
   title: Moo Cow Studios
   description: Moo Cow Studios eCommerce Site

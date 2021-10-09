@@ -1,10 +1,16 @@
 .promo {
+
+  .promo__link {
+    color: $color_medium;
+    border: 2px solid $color_medium;
+  }
+
   &__section {
     &:last-child {
       margin-bottom: 0;
 
       picture {
-        background-color: $color_dark;
+        background-color: $color_lighter;
       }
     }
   }
@@ -31,9 +37,9 @@
     flex: 1;
     width: 0;
     padding: 80px;
-    color: $color_default;
-    background-color: $color_active;
-    background-size: auto 400%;
+    color: $color_medium;
+    background-color: $color_moo_pink;
+    background-size: cover;
     background-position: center;
   }
 
@@ -41,6 +47,7 @@
     font-family: $font_family_primary;
     font-size: $font_size_xlarge;
     font-weight: bold;
+
     @include smaller-than-tablet {
       font-size: $font_size_large;
     }
@@ -50,6 +57,7 @@
     font-size: $font_size_large;
     margin-top: $spacing--unit*3;
     margin-bottom: $spacing--unit*6;
+
     @include smaller-than-tablet {
       font-size: $font_size_medium;
     }
@@ -57,6 +65,7 @@
 
   @include smaller-than-tablet {
     flex-direction: column;
+
     &__image {
       width: auto;
       padding-bottom: 0;
