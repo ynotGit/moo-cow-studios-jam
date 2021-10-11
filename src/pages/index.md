@@ -7,7 +7,7 @@ sections:
     background_image: images/header.jpg
     background_image_opacity: 65
     content: |
-      # BBring Some Magic To Your Kingdom
+      # Bring Some Magic To Your Kingdom
 
       Discover Our Range Of Disney Inspired Prints
     actions:
