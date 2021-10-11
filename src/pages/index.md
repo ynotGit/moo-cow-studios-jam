@@ -6,9 +6,8 @@ sections:
     section_id: hero_section
     background_image: images/header.jpg
     background_image_opacity: 65
-    content: >
-      # Bring Some Magic To Your Kingdom
-
+    content: |
+      # BBring Some Magic To Your Kingdom
 
       Discover Our Range Of Disney Inspired Prints
     actions:
@@ -37,15 +36,13 @@ sections:
       - author:
           name: John Dope
           location: 'Colorado, USA'
-        text: >-
-          Test
+        text: Test
       - author:
           name: Major Payne
           location: 'VA, USA'
         text: >-
           Well I'll be d*mned. These plants really ARE greener than any of my
           recruits.
-          
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
