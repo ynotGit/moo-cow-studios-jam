@@ -6,8 +6,8 @@ description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit velit
   lectus, vitae efficitur quam mollis eget. Integer porta at nisl eget
   tincidunt.
-default_thumbnail_image: images/beauty-beast.JPG
-default_original_image: images/beauty-beast.JPG
+default_thumbnail_image: images/products/beauty-beast.JPG
+default_original_image: images/products/beauty-beast.JPG
 featured: true
 order: 1
 category: src/pages/category/prints.md
@@ -25,7 +25,7 @@ seo:
       value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
       keyName: property
     - name: 'og:image'
-      value: images/beauty-beast.JPG
+      value: images/products/beauty-beast.JPG
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -35,7 +35,7 @@ seo:
     - name: 'twitter:description'
       value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     - name: 'twitter:image'
-      value: images/beauty-beast.JPG
+      value: images/products/beauty-beast.JPG
       relativeUrl: true
 template: product
 ---

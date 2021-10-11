@@ -3,8 +3,8 @@ id: '2'
 price: '6.99'
 title: Little Mermaid
 description: Suspendisse efficitur eget erat sit amet efficitur.
-default_thumbnail_image: images/little-mermaid.jpg
-default_original_image: images/little-mermaid.jpg
+default_thumbnail_image: images/products/little-mermaid.jpg
+default_original_image: images/products/little-mermaid.jpg
 order: 2
 category: src/pages/category/cactuses.md
 seo:
