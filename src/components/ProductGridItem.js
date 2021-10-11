@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix, getPageByFilePath} from '../utils';
+import { Link, withPrefix, getPageByFilePath } from '../utils';
 import Picture from './Picture';
 import SmallBuyButton from './SmallBuyButton';
 
@@ -26,7 +26,7 @@ export default class ProductGridItem extends React.Component {
                             <span className="product-grid__category"> {_.get(category_page, 'frontmatter.title', null)} </span>
                         );
                     })())}
-                    <span className="product-grid__price"> ${_.get(product_page, 'frontmatter.price', null)} </span>
+                    <span className="product-grid__price"> £{_.get(product_page, 'frontmatter.price', null)} </span>
                 </div>
             </li>
         );

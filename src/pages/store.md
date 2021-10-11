@@ -8,21 +8,21 @@ sections:
     title: Best sellers
     icon: true
     featured_products:
-      - src/pages/products/plant1.md
+      - src/pages/products/product1.md
       - src/pages/products/plant3.md
       - src/pages/products/plant5.md
       - src/pages/products/plant7.md
   - type: promotion_section
     section_id: promotion_section
-    title: A new home interior for summer
-    subtitle: from $149.99
+    title: Let's Get Personal
+    subtitle: We Do Bespoke Art Work
     image: images/promo.jpg
-    background_image: /images/leaf.svg
+    background_image: images/mc-bg.jpg
     cta:
-      title: Discover
-      url: /store
+      title: Get In Touch
+      url: /contact
       style: secondary
-      arrow: true
+      arrow: false
 seo:
   title: Store
   description: This is the store page

@@ -1,10 +1,10 @@
 ---
 id: '2'
-price: '99.00'
-title: Integer porta
+price: '6.99'
+title: Little Mermaid
 description: Suspendisse efficitur eget erat sit amet efficitur.
-default_thumbnail_image: images/plant2.jpg
-default_original_image: images/plant2-lg.jpg
+default_thumbnail_image: images/little-mermaid.jpg
+default_original_image: images/little-mermaid.jpg
 order: 2
 category: src/pages/category/cactuses.md
 seo:
@@ -21,7 +21,7 @@ seo:
       value: Suspendisse efficitur eget erat sit amet efficitur
       keyName: property
     - name: 'og:image'
-      value: images/plant2-lg.jpg
+      value: images/products/little-mermaid.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -31,7 +31,7 @@ seo:
     - name: 'twitter:description'
       value: Suspendisse efficitur eget erat sit amet efficitur
     - name: 'twitter:image'
-      value: images/plant2-lg.jpg
+      value: images/products/little-mermaid.jpg
       relativeUrl: true
 template: product
 ---
