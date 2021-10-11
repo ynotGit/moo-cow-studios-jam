@@ -8,8 +8,13 @@
     "bg_image_secondary": "/images/leaf-light-grey.svg",
     "bg_image_product": "/images/leaf.svg",
     "snipcart_api_key": "NjA5NmJkMTktMzIzNi00ODdhLTg3MjItZTFiZWRlZjBkNTNhNjM3NTk4NzExNjU2MjE0Njg5",
+<<<<<<< HEAD
     "footer_text": "Copyright Moo Cow Studios 2021",
     "palette": "moo-pink",
+=======
+    "footer_text": "Copyright 2021 Planty Inc. All rights reserved.",
+    "palette": "green",
+>>>>>>> 747d844ac98569179ff3457d0a059375c29a7770
     "main_menu": [
         {
             "title": "Collections",
