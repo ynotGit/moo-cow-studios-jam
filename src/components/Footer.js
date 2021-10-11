@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix} from '../utils';
+import { Link, withPrefix } from '../utils';
 import Picture from './Picture';
 
 export default class Footer extends React.Component {
@@ -17,14 +17,17 @@ export default class Footer extends React.Component {
                     </Link>
                     <ul className="footer__nav">
                         {_.map(menu, (item, item_idx) => (
-                        <li key={item_idx} className="footer__nav-item">
-                            <Link to={withPrefix(_.get(item, 'url', null))} {...((_.get(item, 'title', null) === _.get(page, 'frontmatter.title', null)) ? ({className: 'footer__nav-link footer__nav-link--active'}) : {className: 'footer__nav-link'})}>
-                            {_.get(item, 'title', null)}
-                            </Link>
-                        </li>
+                            <li key={item_idx} className="footer__nav-item">
+                                <Link to={withPrefix(_.get(item, 'url', null))} {...((_.get(item, 'title', null) === _.get(page, 'frontmatter.title', null)) ? ({ className: 'footer__nav-link footer__nav-link--active' }) : { className: 'footer__nav-link' })}>
+                                    {_.get(item, 'title', null)}
+                                </Link>
+                            </li>
                         ))}
                     </ul>
                     <div className="footer__legal-notice">{_.get(site, 'siteMetadata.footer_text', null)}</div>
+                </div>
+                <div className="footer__dev">Created By
+                    <a href="www.ynotinnovate.com"> Y Not Innovate &copy;</a>
                 </div>
             </footer>
         );

@@ -34,7 +34,14 @@
             max-width: 720px;
             font-size: $spacing--unit*8;
             font-weight: bold;
-            @include smaller-than-tablet { font-size: $font_size_large; }
+
+            @include smaller-than-tablet {
+                font-size: $font_size_large;
+            }
+        }
+
+        p {
+            font-family: $font_family_secondary;
         }
     }
 
@@ -51,6 +58,7 @@
     &__links {
         margin-top: $spacing--unit*10;
         position: relative;
+        width: 100%;
     }
 }
 

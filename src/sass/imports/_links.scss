@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   font-size: $font_size_medium;
-  border: 2px solid $color_active;
+  border: 2px solid white;
   padding: 13px 22px;
   border-radius: 5px;
   font-family: $font_family_primary;
@@ -11,6 +11,7 @@
   width: -moz-fit-content;
   width: fit-content;
   background-color: transparent;
+
   svg {
     color: inherit;
     fill: currentColor;
@@ -19,6 +20,7 @@
 
   &--reversed {
     flex-direction: row-reverse;
+
     svg {
       margin-right: 10px;
       margin-left: 0;
@@ -26,7 +28,7 @@
   }
 
   &--filled {
-    background-color: $color_active;
+    background-color: $color_light;
     color: $color_default;
   }
 
@@ -84,13 +86,13 @@
         color: $color_default;
         border-color: $color_default;
       }
-    
+
       &--light-filled {
         background-color: $color_default;
         border-color: $color_default;
         color: map-deep-get($theme-palettes, $palette, "active");
       }
-    
+
       &--light-borderless {
         color: $color_default;
       }

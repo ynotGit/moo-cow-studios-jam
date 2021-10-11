@@ -1,19 +1,34 @@
 {
     "favicon": "images/favicon.png",
-    "logo_dark": "images/logo.svg",
-    "logo_light": "images/logo-white.svg",
+    "logo_dark": "images/logo.png",
+    "logo_light": "images/logo.png",
     "hamburger_background_image": "/images/leaf-light-grey.svg",
     "bg_image_primary": "/images/header.jpg",
     "bg_image_primary_opacity": 60,
     "bg_image_secondary": "/images/leaf-light-grey.svg",
     "bg_image_product": "/images/leaf.svg",
-    "snipcart_api_key": "",
-    "footer_text": "Copyright 2021 Planty Inc. All rights reserved.",
-    "palette": "green",
+    "snipcart_api_key": "NjA5NmJkMTktMzIzNi00ODdhLTg3MjItZTFiZWRlZjBkNTNhNjM3NTk4NzExNjU2MjE0Njg5",
+    "footer_text": "Copyright Moo Cow Studios 2021",
+    "palette": "moo-pink",
     "main_menu": [
         {
-            "title": "Store",
-            "url": "/store",
+            "title": "Collections",
+            "url": "/collections",
+            "style": "link"
+        },
+        {
+            "title": "Prints",
+            "url": "/prints",
+            "style": "link"
+        },
+        {
+            "title": "Cards",
+            "url": "/cards",
+            "style": "link"
+        },
+        {
+            "title": "Stickers",
+            "url": "/stickers",
             "style": "link"
         },
         {
@@ -22,11 +37,11 @@
             "style": "link"
         },
         {
-            "title": "FAQ",
-            "url": "/faq",
+            "title": "Contact",
+            "url": "/contact",
             "style": "link"
         }
     ],
-    "title": "Planty",
-    "domain": "https://moo-cow-studios-jam-af47c.netlify.app"
+    "title": "Moo Cow Studios",
+    "domain": "https://moocowstudios.com"
 }
