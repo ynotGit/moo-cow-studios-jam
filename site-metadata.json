@@ -10,8 +10,7 @@
     "snipcart_api_key": "NjA5NmJkMTktMzIzNi00ODdhLTg3MjItZTFiZWRlZjBkNTNhNjM3NTk4NzExNjU2MjE0Njg5",
     "footer_text": "Copyright Moo Cow Studios 2021",
     "palette": "moo-pink",
-    "main_menu": [
-        {
+    "main_menu": [{
             "title": "Collections",
             "url": "/collections",
             "style": "link"
