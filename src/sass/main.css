@@ -95,7 +95,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   font-size: 24px;
-  border: 2px solid #88dd9b;
+  border: 2px solid white;
   padding: 13px 22px;
   border-radius: 5px;
   font-family: "Handlee", cursive;
@@ -126,7 +126,7 @@ img {
 }
 
 .link--filled {
-  background-color: #88dd9b;
+  background-color: #d9dfe0;
   color: #fff;
 }
 
@@ -463,7 +463,7 @@ img {
 }
 
 .nav__logo {
-  width: 25%;
+  width: 18%;
 }
 
 .nav__logo-image {
@@ -1269,6 +1269,9 @@ img {
 }
 
 .store__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   max-width: 1000px;
 }
@@ -1712,6 +1715,7 @@ main.content {
 .hero__links {
   margin-top: 80px;
   position: relative;
+  width: 100%;
 }
 
 .palette-cyan .hero {
@@ -2213,7 +2217,7 @@ main.content {
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
-  fill: #88dd9b;
+  fill: #384647;
 }
 
 .quotes__text {
@@ -2315,7 +2319,7 @@ main.content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #384647;
+  background-color: #f0f5f6;
 }
 
 .footer__container {
@@ -2402,6 +2406,13 @@ main.content {
   line-height: 1.2;
 }
 
+.footer .footer__dev {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+  color: #6b797a;
+  font-weight: bold;
+}
+
 .palette-cyan .footer {
   background-color: #334e68;
 }
@@ -2425,12 +2436,17 @@ main.content {
   width: 100%;
 }
 
+.promo .promo__link {
+  color: #6b797a;
+  border: 2px solid #6b797a;
+}
+
 .promo__section:last-child {
   margin-bottom: 0;
 }
 
 .promo__section:last-child picture {
-  background-color: #384647;
+  background-color: #f0f5f6;
 }
 
 .promo picture {
@@ -2464,9 +2480,9 @@ main.content {
           flex: 1;
   width: 0;
   padding: 80px;
-  color: #fff;
-  background-color: #88dd9b;
-  background-size: auto 400%;
+  color: #6b797a;
+  background-color: #ffe5f2;
+  background-size: cover;
   background-position: center;
 }
 

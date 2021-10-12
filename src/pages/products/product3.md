@@ -6,7 +6,7 @@ description: 'Nulla non pretium metus, vitae finibus lectus.'
 default_thumbnail_image: images/products/frozen.jpg
 default_original_image: images/products/frozen.jpg
 featured: true
-order: 3
+order: -3
 category: src/pages/category/stickers.md
 seo:
   title: Curabitur eu tempor

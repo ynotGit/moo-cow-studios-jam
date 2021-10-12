@@ -3,10 +3,12 @@
         font-family: $font_family_primary;
         font-size: $font_size_xlarge;
         line-height: 60px;
-        @include smaller-than-tablet { 
-            font-size: $font_size_large; 
+
+        @include smaller-than-tablet {
+            font-size: $font_size_large;
             line-height: 42px;
         }
+
         color: $color_darker;
     }
 
@@ -14,12 +16,13 @@
         display: flex;
         padding-left: 0;
         overflow: visible;
+
         @include smaller-than-tablet {
             padding-left: 25px;
             flex-direction: column;
         }
     }
-    
+
     &__head {
         margin-top: $spacing--unit*8;
         margin-bottom: $spacing--unit*10;
@@ -34,6 +37,7 @@
         background-color: $color_lightest;
         border-radius: 0px $spacing--unit*3 $spacing--unit*3 0px;
         margin-right: 50px;
+
         &:before {
             content: "";
             border-radius: 0px $spacing--unit*3 $spacing--unit*3 0px;
@@ -50,7 +54,11 @@
             border-top: 1px solid $color_light;
             margin: 0;
             padding: 0;
-            &:before { content: none; }
+
+            &:before {
+                content: none;
+            }
+
             background-color: transparent;
             border-radius: 0;
             padding: 25px;
@@ -65,7 +73,10 @@
         margin-top: $spacing--unit*5;
         margin-bottom: $spacing--unit*5;
         margin-right: $spacing--unit*5;
-        @include smaller-than-tablet { margin: 0; }
+
+        @include smaller-than-tablet {
+            margin: 0;
+        }
     }
 
     &__nav-item {
@@ -75,9 +86,13 @@
         font-family: $font_family_primary;
         font-size: $font_size_regular;
         white-space: nowrap;
+
         @include smaller-than-tablet {
             padding: 0;
-            &:not(:last-child) { margin-bottom: 15px; } 
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
         }
     }
 
@@ -85,6 +100,7 @@
         display: inline-block;
         font-weight: normal;
         width: 100%;
+
         @include smaller-than-tablet {
             color: $color_medium;
         }
@@ -94,6 +110,7 @@
             color: $color_darker;
             border-bottom: solid 1px $color_active;
             padding-bottom: 5px;
+
             @include smaller-than-tablet {
                 border-bottom: none;
             }
@@ -101,6 +118,7 @@
     }
 
     &__products {
+        display: flex;
         width: 100%;
         max-width: 1000px;
     }
@@ -137,7 +155,7 @@
                 @include smaller-than-tablet {
                     color: map-deep-get($theme-palettes, $palette, "medium");
                 }
-        
+
                 &--active {
                     color: map-deep-get($theme-palettes, $palette, "darker");
                     border-bottom-color: map-deep-get($theme-palettes, $palette, "active");

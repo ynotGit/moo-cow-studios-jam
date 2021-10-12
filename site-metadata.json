@@ -11,18 +11,23 @@
     "footer_text": "Copyright Moo Cow Studios 2021",
     "palette": "moo-pink",
     "main_menu": [{
+            "title": "New In",
+            "url": "/store",
+            "style": "link"
+        },
+        {
             "title": "Prints",
-            "url": "/prints",
+            "url": "/category/prints",
             "style": "link"
         },
         {
             "title": "Cards",
-            "url": "/cards",
+            "url": "/category/cards",
             "style": "link"
         },
         {
             "title": "Stickers",
-            "url": "/stickers",
+            "url": "/category/stickers",
             "style": "link"
         },
         {

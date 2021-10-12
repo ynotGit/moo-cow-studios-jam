@@ -15,7 +15,7 @@ export const query = graphql`
     sitePage(path: {eq: $url}) {
       id
     }
-  }
+  } 
 `;
 
 export default class Product extends React.Component {

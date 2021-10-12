@@ -9,7 +9,7 @@ description: >-
 default_thumbnail_image: images/products/beauty-beast.JPG
 default_original_image: images/products/beauty-beast.JPG
 featured: true
-order: 1
+order: -1
 category: src/pages/category/prints.md
 seo:
   title: Beauty & The Beast

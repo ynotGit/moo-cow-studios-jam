@@ -5,7 +5,7 @@ title: Aladdin
 description: Aladdin.
 default_thumbnail_image: images/products/aladdin.jpg
 default_original_image: images/products/aladdin.jpg
-order: 4
+order: -4
 category: src/pages/category/prints.md
 seo:
   title: Cras molestie
