@@ -1,12 +1,12 @@
 ---
 id: '4'
-price: '24.99'
-title: Cras molestie
-description: Maecenas pretium blandit ex id lobortis.
-default_thumbnail_image: images/plant4.jpg
-default_original_image: images/plant4-lg.jpg
+price: '6.99'
+title: Aladdin
+description: Aladdin.
+default_thumbnail_image: images/products/aladdin.jpg
+default_original_image: images/products/aladdin.jpg
 order: 4
-category: src/pages/category/cactuses.md
+category: src/pages/category/prints.md
 seo:
   title: Cras molestie
   description: Maecenas pretium blandit ex id lobortis
@@ -21,7 +21,7 @@ seo:
       value: Maecenas pretium blandit ex id lobortis
       keyName: property
     - name: 'og:image'
-      value: images/plant4-lg.jpg
+      value: images/products/aladdin.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -31,7 +31,7 @@ seo:
     - name: 'twitter:description'
       value: Maecenas pretium blandit ex id lobortis
     - name: 'twitter:image'
-      value: images/plant4-lg.jpg
+      value: images/products/aladdin.jpg
       relativeUrl: true
 template: product
 ---

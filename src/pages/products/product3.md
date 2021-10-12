@@ -1,13 +1,13 @@
 ---
 id: '3'
-price: '150.00'
-title: Curabitur eu tempor
+price: '6.99'
+title: Frozen
 description: 'Nulla non pretium metus, vitae finibus lectus.'
-default_thumbnail_image: images/plant3.jpg
-default_original_image: images/plant3-lg.jpg
+default_thumbnail_image: images/products/frozen.jpg
+default_original_image: images/products/frozen.jpg
 featured: true
 order: 3
-category: src/pages/category/cactuses.md
+category: src/pages/category/stickers.md
 seo:
   title: Curabitur eu tempor
   description: 'Nulla non pretium metus, vitae finibus lectus'
@@ -22,7 +22,7 @@ seo:
       value: 'Nulla non pretium metus, vitae finibus lectus'
       keyName: property
     - name: 'og:image'
-      value: images/plant3-lg.jpg
+      value: images/products/frozen.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -32,7 +32,7 @@ seo:
     - name: 'twitter:description'
       value: 'Nulla non pretium metus, vitae finibus lectus'
     - name: 'twitter:image'
-      value: images/plant3-lg.jpg
+      value: images/products/frozen.jpg
       relativeUrl: true
 template: product
 ---

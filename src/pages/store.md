@@ -9,9 +9,9 @@ sections:
     icon: true
     featured_products:
       - src/pages/products/product1.md
-      - src/pages/products/plant3.md
-      - src/pages/products/plant5.md
-      - src/pages/products/plant7.md
+      - src/pages/products/product2.md
+      - src/pages/products/product3.md
+      - src/pages/products/product4.md
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal

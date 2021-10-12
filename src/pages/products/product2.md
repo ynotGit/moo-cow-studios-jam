@@ -1,12 +1,12 @@
 ---
 id: '2'
 price: '6.99'
-title: Little Mermaid
+title: Pocahontas
 description: Suspendisse efficitur eget erat sit amet efficitur.
-default_thumbnail_image: images/products/little-mermaid.jpg
-default_original_image: images/products/little-mermaid.jpg
+default_thumbnail_image: images/products/pocahontas.jpg
+default_original_image: images/products/pocahontas.jpg
 order: 2
-category: src/pages/category/cactuses.md
+category: src/pages/category/cards.md
 seo:
   title: Integer porta
   description: Suspendisse efficitur eget erat sit amet efficitur
@@ -21,7 +21,7 @@ seo:
       value: Suspendisse efficitur eget erat sit amet efficitur
       keyName: property
     - name: 'og:image'
-      value: images/products/little-mermaid.jpg
+      value: images/products/pocahontas.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -31,7 +31,7 @@ seo:
     - name: 'twitter:description'
       value: Suspendisse efficitur eget erat sit amet efficitur
     - name: 'twitter:image'
-      value: images/products/little-mermaid.jpg
+      value: images/products/pocahontas.jpg
       relativeUrl: true
 template: product
 ---

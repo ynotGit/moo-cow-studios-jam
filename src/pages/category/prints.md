@@ -1,6 +1,6 @@
 ---
 title: Prints
-order: 5
+order: 1
 seo:
   title: Prints
   description: Prints Store Page

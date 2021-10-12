@@ -11,11 +11,6 @@
     "footer_text": "Copyright Moo Cow Studios 2021",
     "palette": "moo-pink",
     "main_menu": [{
-            "title": "Collections",
-            "url": "/collections",
-            "style": "link"
-        },
-        {
             "title": "Prints",
             "url": "/prints",
             "style": "link"
