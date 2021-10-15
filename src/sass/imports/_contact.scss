@@ -1,6 +1,7 @@
 .contact {
   &__section {
     display: flex;
+
     @include smaller-than-tablet {
       flex-direction: column;
     }
@@ -15,6 +16,7 @@
     width: 0;
     flex: 0.2;
     object-fit: cover;
+
     @include smaller-than-tablet {
       max-height: 300px;
       width: initial;
@@ -28,6 +30,7 @@
     font-size: 46px;
     color: $color_darker;
     margin-bottom: 50px;
+
     @include smaller-than-tablet {
       font-size: $font_size_medium;
       margin-bottom: 25px;
@@ -47,6 +50,7 @@
     font-size: $font_size_regular;
     line-height: 150%;
     color: $color_medium;
+
     @include smaller-than-tablet {
       margin-bottom: 0;
       padding: 40px 25px;
@@ -61,13 +65,16 @@
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: repeat(1fr, 2);
+
     @include smaller-than-tablet {
       width: 100%;
       display: flex;
       flex-direction: column;
+
       p {
         margin-bottom: 25px;
       }
+
       a {
         width: 100%;
         display: flex;
