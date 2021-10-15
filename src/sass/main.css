@@ -289,7 +289,7 @@ img {
 }
 
 .button--std {
-  background-color: #88dd9b;
+  background-color: #ffe5f2;
   color: #fff;
 }
 
@@ -1042,10 +1042,10 @@ img {
       -ms-flex-align: center;
           align-items: center;
   height: 104px;
-  background-color: #88dd9b;
+  background-color: #6b797a;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: black;
   background-size: auto 700%;
   background-position: center;
   margin-top: auto;
@@ -2015,7 +2015,7 @@ main.content {
 }
 
 .hamburger__content {
-  background-color: #f0f5f6;
+  background-color: #ffe5f2;
   color: #384647;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2066,9 +2066,11 @@ main.content {
 
 .hamburger__checkout {
   cursor: pointer;
-  font-size: 20px;
+  font-size: 32px;
   margin-top: 30px;
   margin-bottom: 70px;
+  background: #ffe5f2;
+  color: #384647;
 }
 
 .hamburger__nav {
@@ -2453,10 +2455,15 @@ main.content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  width: 0;
   padding-bottom: 50px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .promo picture {
+    padding-bottom: 0;
+  }
 }
 
 .promo picture img {

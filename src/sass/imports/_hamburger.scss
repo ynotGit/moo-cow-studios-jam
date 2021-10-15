@@ -3,12 +3,12 @@
   outline: none;
   padding: 0;
 
-  @include smaller-than-tablet { 
+  @include smaller-than-tablet {
     display: block;
   }
 
   &__content {
-    background-color: $color_lighter;
+    background-color: $color_moo_pink;
     color: $color_dark;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     background-position: center;
     transition: left .3s ease-in-out;
 
-    @include smaller-than-tablet { 
+    @include smaller-than-tablet {
       .nav--opened & {
         left: 0;
       }
@@ -43,9 +43,11 @@
 
   &__checkout {
     cursor: pointer;
-    font-size: $font_size_regular;
+    font-size: $font_size_large;
     margin-top: 30px;
     margin-bottom: 70px;
+    background: $color_moo_pink;
+    color: $color_dark;
   }
 
   &__nav {
@@ -56,7 +58,7 @@
     margin-bottom: 25px;
     font-weight: bold;
   }
- 
+
   &__nav-link {
     text-align: center;
     font-family: $font_family_primary;

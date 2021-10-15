@@ -35,12 +35,7 @@ export default class Product extends React.Component {
                             <div className="product__background-right" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.bg_image_secondary', null)) + '\')')} />
                         )}
                         <div className="product__header">
-                            <Link to={withPrefix('/store')} className="product__back-to-store-link">
-                                <svg width="20" height="10" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M2.739 4.309h17.011v1.284h-17.11l3.43 3.396-0.895 0.886-4.924-4.875 4.924-4.875 0.895 0.886-3.331 3.298z" />
-                                </svg>
-                                see all products
-                            </Link>
+
                         </div>
                         <figure className="product__figure">
                             <Picture {...this.props} image={_.get(this.props, 'pageContext.frontmatter.default_original_image', null)} alt={_.get(this.props, 'pageContext.frontmatter.title', null)} cssClass={'product__image'} />
@@ -66,24 +61,23 @@ export default class Product extends React.Component {
                             <BuyButton {...this.props} product_page={this.props.pageContext} />
                         </div>
                     </section>
-                    {_.get(this.props, 'pageContext.frontmatter.category', null) && ((() => {
-                        let product_pages = _.filter(_.orderBy(getPages(this.props.pageContext.pages, '/products'), 'frontmatter.order'), item => _.get(item, 'frontmatter.id') != _.get(this.props, 'pageContext.frontmatter.id', null));
-                        let category_page = getPageByFilePath(this.props.pageContext.pages, _.get(this.props, 'pageContext.frontmatter.category', null));
-                        return (
-                            <section className="content__row">
-                                <h2 className="content__row-title">Related</h2>
-                                <ProductGrid {...this.props} product_pages={product_pages} category_url={_.get(category_page, 'url', null)} cssClass={'store__product-grid'} site={this.props.pageContext.site} />
-                            </section>
-                        );
-                    })())}
+                    {
+                        _.get(this.props, 'pageContext.frontmatter.category', null) && ((() => {
+                            let product_pages = _.filter(_.orderBy(getPages(this.props.pageContext.pages, '/products'), 'frontmatter.order'), item => _.get(item, 'frontmatter.id') != _.get(this.props, 'pageContext.frontmatter.id', null));
+                            let category_page = getPageByFilePath(this.props.pageContext.pages, _.get(this.props, 'pageContext.frontmatter.category', null));
+                            return (
+                                <section className="content__row">
+                                    <h2 className="content__row-title">Related</h2>
+                                    <ProductGrid {...this.props} product_pages={product_pages} category_url={_.get(category_page, 'url', null)} cssClass={'store__product-grid'} site={this.props.pageContext.site} />
+                                </section>
+                            );
+                        })())
+                    }
                     <Link to={withPrefix('/store')} className="content__row content__row--full-width content__row--mb-0 product__back-to-store"{...(_.get(this.props, 'pageContext.site.siteMetadata.bg_image_product', null) ? ({ style: toStyleObj('background-image: url(\'' + withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.bg_image_product', null)) + '\')') }) : null)}>
-                        <svg width="20" height="10" viewBox="0 0 20 10" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2.739 4.309h17.011v1.284h-17.11l3.43 3.396-0.895 0.886-4.924-4.875 4.924-4.875 0.895 0.886-3.331 3.298z" />
-                        </svg>
                         see all products
                     </Link>
-                </main>
-            </Layout>
+                </main >
+            </Layout >
         );
     }
 }

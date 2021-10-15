@@ -20,9 +20,12 @@
 
   picture {
     flex: 1;
-    width: 0;
     padding-bottom: 50px;
     object-fit: cover;
+
+    @include smaller-than-tablet {
+      padding-bottom: 0;
+    }
 
     img {
       width: 100%;

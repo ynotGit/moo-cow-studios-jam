@@ -36,7 +36,7 @@
     padding: 0 0.5em;
   }
 
-  &__icon + &__text {
+  &__icon+&__text {
     padding-left: 0;
   }
 
@@ -47,6 +47,7 @@
 
   &--transparent {
     background-color: transparent;
+
     &:hover,
     &:active {
       background-color: transparent;
@@ -54,15 +55,18 @@
   }
 
   &--std {
-    background-color: $color_active;
+    background-color: $color_moo_pink;
     color: $color_default;
+
     svg {
       width: 22px;
       height: 22px;
     }
+
     &:hover {
       background-color: $color_active_medium;
     }
+
     &:active {
       background-color: $color_active_dark;
     }
@@ -75,18 +79,19 @@
 
   &--large-icon & {
     &__text {
-        margin-left: $spacing--unit*2;
+      margin-left: $spacing--unit*2;
     }
 
     &__icon {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
     &__icon svg {
-        height: $spacing--unit*3;
-        width: $spacing--unit*3;
+      height: $spacing--unit*3;
+      width: $spacing--unit*3;
     }
   }
 }
@@ -101,7 +106,7 @@
         background-color: map-deep-get($theme-palettes, $palette, "active");
         color: $color_default;
       }
-    
+
       &:active {
         background-color: map-deep-get($theme-palettes, $palette, "active_medium");
         color: $color_default;
@@ -109,12 +114,13 @@
 
       &--transparent {
         background-color: transparent;
+
         &:hover,
         &:active {
           background-color: transparent;
         }
       }
-    
+
       &--std {
         background-color: map-deep-get($theme-palettes, $palette, "active");
         color: $color_default;
@@ -122,6 +128,7 @@
         &:hover {
           background-color: map-deep-get($theme-palettes, $palette, "active_medium");
         }
+
         &:active {
           background-color: map-deep-get($theme-palettes, $palette, "active_dark");
         }
