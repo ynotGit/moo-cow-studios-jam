@@ -1,6 +1,6 @@
 ---
 id: '1'
-price: '6.99'
+price: '7.99'
 title: Beauty & The Beast
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit velit
