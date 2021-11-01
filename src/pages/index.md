@@ -18,7 +18,7 @@ sections:
   - type: featured_products_section
     section_id: best_sellers_section
     icon: false
-    light_title: true
+    light_title: false
     featured_products:
       - src/pages/products/product1.md
       - src/pages/products/product2.md
