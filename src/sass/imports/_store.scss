@@ -108,7 +108,7 @@
         &--active {
             font-weight: bold;
             color: $color_darker;
-            border-bottom: solid 1px $color_active;
+            border-bottom: solid 1px pink;
             padding-bottom: 5px;
 
             @include smaller-than-tablet {

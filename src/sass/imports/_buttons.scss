@@ -6,7 +6,7 @@
   font-size: $font_size_medium;
   border: none;
   background-color: $color_default;
-  color: $color_active;
+  color: pink;
   padding: 0.5em;
   margin: 0;
   border-radius: 8px;
@@ -21,7 +21,7 @@
   }
 
   &:hover {
-    background-color: $color_active;
+    background-color: pink;
     color: $color_default;
   }
 
@@ -55,7 +55,7 @@
   }
 
   &--std {
-    background-color: $color_moo_pink;
+    background-color: $color_light;
     color: $color_default;
 
     svg {

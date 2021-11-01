@@ -236,7 +236,7 @@ img {
   font-size: 24px;
   border: none;
   background-color: #fff;
-  color: #88dd9b;
+  color: pink;
   padding: 0.5em;
   margin: 0;
   border-radius: 8px;
@@ -257,7 +257,7 @@ img {
 }
 
 .button:hover {
-  background-color: #88dd9b;
+  background-color: pink;
   color: #fff;
 }
 
@@ -289,7 +289,7 @@ img {
 }
 
 .button--std {
-  background-color: #ffe5f2;
+  background-color: #d9dfe0;
   color: #fff;
 }
 
@@ -1258,7 +1258,7 @@ img {
 .store__nav-item-link--active {
   font-weight: bold;
   color: #273132;
-  border-bottom: solid 1px #88dd9b;
+  border-bottom: solid 1px pink;
   padding-bottom: 5px;
 }
 
@@ -1810,7 +1810,7 @@ main.content {
 
 .contact__section form {
   padding: 0.2em;
-  width: 50%;
+  width: 100%;
 }
 
 .contact__section form input {
@@ -1827,7 +1827,9 @@ main.content {
   font-size: 1em;
   width: 100%;
   min-height: 200px;
-  padding: 0.2em;
+  padding: 0.3em;
+  margin-top: 0.4em;
+  font-family: "Handlee", cursive;
 }
 
 .contact__section form .contact__link {
@@ -1836,10 +1838,20 @@ main.content {
   color: #6b797a;
   border: 2px solid #6b797a;
   width: 100%;
+  background-color: #d9dfe0;
+  color: #fff;
+  -webkit-transition: color .2s, background-color .2s;
+  transition: color .2s, background-color .2s;
+  margin-top: 0.5em;
 }
 
 .contact__section form .contact__link:hover {
   cursor: pointer;
+  background-color: #5c9174;
+}
+
+.contact__section form .contact__link:active {
+  background-color: #547567;
 }
 
 @media (max-width: 768px) {
@@ -1901,7 +1913,6 @@ main.content {
       -ms-flex-positive: 1;
           flex-grow: 1;
   background-color: #fff;
-  margin-bottom: 50px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

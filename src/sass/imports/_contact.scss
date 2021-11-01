@@ -4,7 +4,7 @@
 
     form {
       padding: 0.2em;
-      width: 50%;
+      width: 100%;
 
       input {
         margin: 0.5em 0;
@@ -20,7 +20,9 @@
         font-size: 1em;
         width: 100%;
         min-height: 200px;
-        padding: 0.2em;
+        padding: 0.3em;
+        margin-top: 0.4em;
+        font-family: $font_family_primary;
       }
 
       .contact__link {
@@ -29,9 +31,18 @@
         color: $color_medium;
         border: 2px solid $color_medium;
         width: 100%;
+        background-color: $color_light;
+        color: $color_default;
+        transition: color .2s, background-color .2s;
+        margin-top: 0.5em;
 
         &:hover {
           cursor: pointer;
+          background-color: $color_active_medium;
+        }
+
+        &:active {
+          background-color: $color_active_dark;
         }
       }
     }
@@ -78,7 +89,6 @@
     flex: 0.8;
     flex-grow: 1;
     background-color: $color_default;
-    margin-bottom: 50px;
     font-style: normal;
     font-weight: normal;
     font-size: $font_size_regular;

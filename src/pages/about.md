@@ -37,15 +37,15 @@ sections:
         image: images/team.jpg
   - type: promotion_section
     section_id: promotion_section
-    title: A new home interior for summer
-    subtitle: from $149.99
+    title: Let's Get Personal
+    subtitle: We Do Bespoke Art Work
     image: images/promo.jpg
-    background_image: /images/leaf.svg
+    background_image: images/mc-bg.jpg
     cta:
-      title: Discover
-      url: /store
-      style: primary
-      arrow: true
+      title: Get In Touch
+      url: /contact
+      style: secondary
+      arrow: false
 seo:
   title: About
   description: This is the about page
