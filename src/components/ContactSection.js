@@ -12,21 +12,22 @@ export default class ContactSection extends React.Component {
         <div className="contact__text-container">
           <h3 className="contact__title">Have any questions? <br /> Contact us.</h3>
 
-          <form name="contact" method="POST" action="/contact" data-netlify="true">
+          <form name="contact" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>Your Name:</label>
               <br />
-              <input type="text" name="name" />
+              <input type="text" name="name" required />
             </p>
             <p>
               <label>Your Email:</label>
               <br />
-              <input type="email" name="email" />
+              <input type="email" name="email" required />
             </p>
             <p>
               <label>Message:</label>
               <br />
-              <textarea name="message" placeholder="Hello there! How can we help?"></textarea>
+              <textarea name="message" placeholder="Hello there! How can we help?" required></textarea>
             </p>
             <p>
               <button type="submit" className="link contact__link">Send</button>
