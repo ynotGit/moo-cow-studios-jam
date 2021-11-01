@@ -16,12 +16,12 @@ export default class ContactSection extends React.Component {
             <p>
               <label>Your Name:</label>
               <br />
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" />
             </p>
             <p>
               <label>Your Email:</label>
               <br />
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" />
             </p>
             <p>
               <label>Message:</label>
