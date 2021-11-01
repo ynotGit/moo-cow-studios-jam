@@ -2,6 +2,40 @@
   &__section {
     display: flex;
 
+    form {
+      padding: 0.2em;
+      width: 50%;
+
+      input {
+        margin: 0.5em 0;
+        padding: 0.5em 0 0.5em 0.5em;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 1em;
+        width: 100%;
+      }
+
+      textarea {
+        border: 1px solid black;
+        font-size: 1em;
+        width: 100%;
+        min-height: 200px;
+        padding: 0.2em;
+      }
+
+      .contact__link {
+        display: block;
+        text-align: center;
+        color: $color_medium;
+        border: 2px solid $color_medium;
+        width: 100%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
     @include smaller-than-tablet {
       flex-direction: column;
     }
@@ -39,7 +73,7 @@
   }
 
   &__text-container {
-    padding: 100px;
+    padding: 60px;
     width: 0;
     flex: 0.8;
     flex-grow: 1;
@@ -115,6 +149,8 @@
     margin-left: $spacing--unit*8;
   }
 }
+
+
 
 @each $palette in map-keys($theme_palettes) {
   .palette-#{$palette} {
