@@ -9,7 +9,7 @@ sections:
     content: |
       # Bring Some Magic To Your Kingdom!
 
-      Discover Our Range Of Disney Inspired Prints
+      Discover our range of unique Disney film inspired prints. Find your favourite or collect them all!
     actions:
       - title: Shop Now
         url: /store
@@ -33,19 +33,18 @@ sections:
     title: Testimonials
     testimonials:
       - author:
-          name: John Dope
-          location: 'Colorado, USA'
-        text: Test
+          name: Nicola Porter
+          location: 'UK'
+        text: Amazing quality and such beautiful detail, will be purchasing the full range!
       - author:
-          name: Major Payne
-          location: 'VA, USA'
+          name: Sarah
+          location: 'UK'
         text: >-
-          Well I'll be d*mned. These plants really ARE greener than any of my
-          recruits.
+          Couldn’t be happier! Looks perfect on my desk. Can’t wait to order more!
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
-    subtitle: We Do Bespoke Art Work
+    subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
     image: images/promo.jpg
     background_image: images/mc-bg.jpg
     cta:

@@ -10,7 +10,7 @@ export default class ContactSection extends React.Component {
       <section className="content__row content__row--full-width contact__section" data-id={_.get(section, 'section_id', null)}>
         {_.get(section, 'image', null) && (<img src={withPrefix(_.get(section, 'image', null))} alt="" className="contact__image" />)}
         <div className="contact__text-container">
-          <h3 className="contact__title">Have any questions? <br /> Contact us.</h3>
+          <h3 className="contact__title">Got any questions? Drop us a quick message and we can have a chat. <br /><br /> We aim to get back to you within 48 hours.</h3>
 
           <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />

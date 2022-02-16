@@ -15,7 +15,7 @@ sections:
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
-    subtitle: We Do Bespoke Art Work
+    subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
     image: images/promo.jpg
     background_image: images/mc-bg.jpg
     cta:

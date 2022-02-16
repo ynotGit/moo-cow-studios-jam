@@ -11,29 +11,24 @@ sections:
   - type: bulletpoints_section
     section_id: bulletpoints_section
     bulletpoints:
-      - title: We love plants
+      - title: Inspiration & Creation
         description: >-
-          Now THAT is true, but we love web development even more. We talk about
-          it on our blog, like, [a lot](http://bit.ly/2YA6999). We often craft
-          live demos and open source these bad boys [on
-          GitHub](https://github.com/snipcart). Matter of fact, this Planty
-          theme [is open source
-          too](https://github.com/snipcart/stackbit-theme-planty)! If you spot
-          any bugs, open an issue, and we’ll fire our junior dev. Just kidding
-          Michael, you’re good.
+          Inspire by a funny "Congratulations" card. Kristina embarked on creating her own range of pun filled
+          greetings cards. These were initially sold on Thortful but are now available on both our website and
+          Etsy shop.
+          <br><br>
+          After the success of the greetings cards, Kristina designed the first Moo Cow Creative collection of
+          prints. Mixing her love of all things Disney and a new obsession for minimalist style digital artwork.
+          After just a few short weeks, requests came in for new prints based on customers favourite Disney
+          films. There are now 17 prints in the collection, including 4 digital downloads.
+          <br><br>
+          Moo Cow Creative continues to grow with new products, including individual stickers and sticker
+          sheets available soon, as well as bespoke pieces.
         image: images/nan_talk.jpg
-      - title: We think plants are the future
-        description: >-
-          Word. But good **code** _can_ solve a lots of problems, too. New _and_
-          old. That’s why we help beginners get started with web development
-          through free content and tools, like this theme. We also believe [the
-          JAMstack](https://jamstack.org/) might be one solid pillar on which we
-          build that future.
-        image: images/team.jpg
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
-    subtitle: We Do Bespoke Art Work
+    subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
     image: images/promo.jpg
     background_image: images/mc-bg.jpg
     cta:
