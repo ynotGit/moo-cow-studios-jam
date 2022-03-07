@@ -2461,6 +2461,18 @@ main.content {
   line-height: 1.2;
 }
 
+.footer__footer-credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #6b797a;
+  font-weight: bold;
+  padding-bottom: 0.4em;
+}
+
 .footer .footer__dev {
   font-size: 16px;
   margin: 0 0 20px 0;
