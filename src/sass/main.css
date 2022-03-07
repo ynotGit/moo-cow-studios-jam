@@ -2181,12 +2181,12 @@ main.content {
 }
 
 .header-section__content:after {
-  content: "";
+  content: '';
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
   display: block;
-  background: #88dd9b;
+  background: #ffe5f2;
   height: 3px;
   width: 60px;
 }

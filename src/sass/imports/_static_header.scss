@@ -22,14 +22,16 @@
     line-height: 150%;
     padding-bottom: 50px;
 
-    &:last-child { margin-bottom: 0 }
+    &:last-child {
+      margin-bottom: 0;
+    }
     &:after {
-      content:"";
+      content: '';
       margin-left: auto;
       margin-right: auto;
       margin-top: 50px;
       display: block;
-      background: $color_active;
+      background: $color_moo_pink;
       height: 3px;
       width: 60px;
     }
@@ -53,14 +55,14 @@
   .palette-#{$palette} {
     .header-section {
       &__content {
-        color: map-deep-get($theme-palettes, $palette, "medium");
+        color: map-deep-get($theme-palettes, $palette, 'medium');
         &:after {
-          background: map-deep-get($theme-palettes, $palette, "active");
+          background: map-deep-get($theme-palettes, $palette, 'active');
         }
       }
 
       &__title {
-        color: map-deep-get($theme-palettes, $palette, "darker");
+        color: map-deep-get($theme-palettes, $palette, 'darker');
       }
     }
   }

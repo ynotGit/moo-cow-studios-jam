@@ -24,7 +24,7 @@ sections:
           <br><br>
           Moo Cow Creative continues to grow with new products, including individual stickers and sticker
           sheets available soon, as well as bespoke pieces.
-        image: images/nan_talk.jpg
+        image: images/about.jpg
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
