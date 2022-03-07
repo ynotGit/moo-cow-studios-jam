@@ -7,7 +7,7 @@
       width: 100%;
 
       input {
-        margin: 0.5em 0;
+        margin: 0.2em 0;
         padding: 0.5em 0 0.5em 0.5em;
         border: none;
         border-bottom: 1px solid black;
@@ -66,9 +66,8 @@
   }
 
   &__title {
-    line-height: 56px;
     font-family: $font_family_primary;
-    font-size: 46px;
+    font-size: 30px;
     color: $color_darker;
     margin-bottom: 50px;
 
