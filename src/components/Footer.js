@@ -9,6 +9,9 @@ export default class Footer extends React.Component {
         let page = _.get(this.props, 'page', null);
         let site = _.get(this.props, 'site', null);
         let menu = _.get(site, 'siteMetadata.main_menu', null);
+        let date = new Date();
+        let getYear = date.getFullYear();
+
         return (
             <footer className="footer">
                 <div className="footer__container">
@@ -24,11 +27,10 @@ export default class Footer extends React.Component {
                             </li>
                         ))}
                     </ul>
-                    <div className="footer__legal-notice">{_.get(site, 'siteMetadata.footer_text', null)}</div>
+                    <div className="footer__legal-notice">Copyright Moo Cow Design&copy; {getYear}</div>
                 </div>
-
                 <div className="footer__footer-credit">Created By&nbsp;<Link to="https://www.ynotinnovate.com">Y Not Innovate</Link></div>
-            </footer>
+            </footer >
         );
     }
 }
