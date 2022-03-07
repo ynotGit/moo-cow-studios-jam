@@ -50,7 +50,7 @@ sections:
     cta:
       title: Get In Touch
       url: /contact
-      style: secondary
+      style: primary
       arrow: false
 seo:
   title: Moo Cow Studios

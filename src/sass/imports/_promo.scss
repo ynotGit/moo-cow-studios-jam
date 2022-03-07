@@ -1,8 +1,12 @@
 .promo {
-
   .promo__link {
-    color: $color_medium;
-    border: 2px solid $color_medium;
+    background-color: $color_light;
+    color: $color_default;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color_active_medium;
+    }
   }
 
   &__section {
@@ -58,8 +62,8 @@
 
   &__subtitle {
     font-size: $font_size_large;
-    margin-top: $spacing--unit*3;
-    margin-bottom: $spacing--unit*6;
+    margin-top: $spacing--unit * 3;
+    margin-bottom: $spacing--unit * 6;
 
     @include smaller-than-tablet {
       font-size: $font_size_medium;
@@ -92,13 +96,13 @@
       &__section {
         &:last-child {
           picture {
-            background-color: map-deep-get($theme-palettes, $palette, "dark");
+            background-color: map-deep-get($theme-palettes, $palette, 'dark');
           }
         }
       }
 
       &__message-container {
-        background-color: map-deep-get($theme-palettes, $palette, "active");
+        background-color: map-deep-get($theme-palettes, $palette, 'active');
       }
     }
   }

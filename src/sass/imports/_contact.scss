@@ -28,21 +28,17 @@
       .contact__link {
         display: block;
         text-align: center;
-        color: $color_medium;
-        border: 2px solid $color_medium;
         width: 100%;
+        margin-top: 0.5em;
         background-color: $color_light;
         color: $color_default;
-        transition: color .2s, background-color .2s;
-        margin-top: 0.5em;
+        transition: color 0.2s, background-color 0.2s;
+        border: none;
+        box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
 
         &:hover {
           cursor: pointer;
           background-color: $color_active_medium;
-        }
-
-        &:active {
-          background-color: $color_active_dark;
         }
       }
     }
@@ -155,32 +151,30 @@
     grid-column: 2;
     width: 1px;
     background-color: $color_light;
-    margin-right: $spacing--unit*8;
-    margin-left: $spacing--unit*8;
+    margin-right: $spacing--unit * 8;
+    margin-left: $spacing--unit * 8;
   }
 }
-
-
 
 @each $palette in map-keys($theme_palettes) {
   .palette-#{$palette} {
     .contact {
       &__section {
         &:last-child {
-          background-color: map-deep-get($theme-palettes, $palette, "dark");
+          background-color: map-deep-get($theme-palettes, $palette, 'dark');
         }
       }
 
       &__title {
-        color: map-deep-get($theme-palettes, $palette, "darker");
+        color: map-deep-get($theme-palettes, $palette, 'darker');
       }
 
       &__text-container {
-        color: map-deep-get($theme-palettes, $palette, "medium");
+        color: map-deep-get($theme-palettes, $palette, 'medium');
       }
 
       &__separator {
-        background-color: map-deep-get($theme-palettes, $palette, "light");
+        background-color: map-deep-get($theme-palettes, $palette, 'light');
       }
     }
   }

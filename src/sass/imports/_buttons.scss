@@ -13,7 +13,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  transition: color .2s, background-color .2s;
+  transition: color 0.2s, background-color 0.2s;
 
   svg {
     color: inherit;
@@ -21,8 +21,8 @@
   }
 
   &:hover {
-    background-color: pink;
-    color: $color_default;
+    cursor: pointer;
+    background-color: $color_active_medium;
   }
 
   &:active {
@@ -36,7 +36,7 @@
     padding: 0 0.5em;
   }
 
-  &__icon+&__text {
+  &__icon + &__text {
     padding-left: 0;
   }
 
@@ -57,6 +57,8 @@
   &--std {
     background-color: $color_light;
     color: $color_default;
+    border: none;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
 
     svg {
       width: 22px;
@@ -73,13 +75,13 @@
   }
 
   &--large-icon {
-    padding-left: $spacing--unit*3;
-    padding-right: $spacing--unit*3;
+    padding-left: $spacing--unit * 3;
+    padding-right: $spacing--unit * 3;
   }
 
   &--large-icon & {
     &__text {
-      margin-left: $spacing--unit*2;
+      margin-left: $spacing--unit * 2;
     }
 
     &__icon {
@@ -90,8 +92,8 @@
     }
 
     &__icon svg {
-      height: $spacing--unit*3;
-      width: $spacing--unit*3;
+      height: $spacing--unit * 3;
+      width: $spacing--unit * 3;
     }
   }
 }
@@ -100,15 +102,19 @@
   .palette-#{$palette} {
     .button {
       background-color: $color_default;
-      color: map-deep-get($theme-palettes, $palette, "active");
+      color: map-deep-get($theme-palettes, $palette, 'active');
 
       &:hover {
-        background-color: map-deep-get($theme-palettes, $palette, "active");
+        background-color: map-deep-get($theme-palettes, $palette, 'active');
         color: $color_default;
       }
 
       &:active {
-        background-color: map-deep-get($theme-palettes, $palette, "active_medium");
+        background-color: map-deep-get(
+          $theme-palettes,
+          $palette,
+          'active_medium'
+        );
         color: $color_default;
       }
 
@@ -122,15 +128,23 @@
       }
 
       &--std {
-        background-color: map-deep-get($theme-palettes, $palette, "active");
+        background-color: map-deep-get($theme-palettes, $palette, 'active');
         color: $color_default;
 
         &:hover {
-          background-color: map-deep-get($theme-palettes, $palette, "active_medium");
+          background-color: map-deep-get(
+            $theme-palettes,
+            $palette,
+            'active_medium'
+          );
         }
 
         &:active {
-          background-color: map-deep-get($theme-palettes, $palette, "active_dark");
+          background-color: map-deep-get(
+            $theme-palettes,
+            $palette,
+            'active_dark'
+          );
         }
       }
     }

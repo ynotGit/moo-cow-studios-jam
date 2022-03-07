@@ -26,9 +26,6 @@ export default class Footer extends React.Component {
                     </ul>
                     <div className="footer__legal-notice">{_.get(site, 'siteMetadata.footer_text', null)}</div>
                 </div>
-                <div className="footer__dev">Created By
-                    <a href="www.ynotinnovate.com"> Y Not Innovate &copy;</a>
-                </div>
             </footer>
         );
     }

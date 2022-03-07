@@ -94,17 +94,20 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 24px;
-  border: 2px solid white;
+  font-size: 32px;
+  border: none;
+  -webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
   padding: 13px 22px;
   border-radius: 5px;
   font-family: "Handlee", cursive;
   font-weight: bold;
-  color: #88dd9b;
+  color: #fff;
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
-  background-color: transparent;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
 }
 
 .link svg {
@@ -128,6 +131,11 @@ img {
 .link--filled {
   background-color: #d9dfe0;
   color: #fff;
+}
+
+.link--filled:hover {
+  cursor: pointer;
+  background-color: #5c9174;
 }
 
 .link--borderless {
@@ -247,8 +255,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: color .2s, background-color .2s;
-  transition: color .2s, background-color .2s;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
 }
 
 .button svg {
@@ -257,8 +265,8 @@ img {
 }
 
 .button:hover {
-  background-color: pink;
-  color: #fff;
+  cursor: pointer;
+  background-color: #5c9174;
 }
 
 .button:active {
@@ -291,6 +299,9 @@ img {
 .button--std {
   background-color: #d9dfe0;
   color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
 }
 
 .button--std svg {
@@ -1835,23 +1846,20 @@ main.content {
 .contact__section form .contact__link {
   display: block;
   text-align: center;
-  color: #6b797a;
-  border: 2px solid #6b797a;
   width: 100%;
+  margin-top: 0.5em;
   background-color: #d9dfe0;
   color: #fff;
-  -webkit-transition: color .2s, background-color .2s;
-  transition: color .2s, background-color .2s;
-  margin-top: 0.5em;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
+  border: none;
+  -webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
 }
 
 .contact__section form .contact__link:hover {
   cursor: pointer;
   background-color: #5c9174;
-}
-
-.contact__section form .contact__link:active {
-  background-color: #547567;
 }
 
 @media (max-width: 768px) {
@@ -2484,8 +2492,13 @@ main.content {
 }
 
 .promo .promo__link {
-  color: #6b797a;
-  border: 2px solid #6b797a;
+  background-color: #d9dfe0;
+  color: #fff;
+}
+
+.promo .promo__link:hover {
+  cursor: pointer;
+  background-color: #5c9174;
 }
 
 .promo__section:last-child {
