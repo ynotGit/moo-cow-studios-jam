@@ -4,7 +4,7 @@ page_css_class: gray-background
 sections:
   - type: header_section
     section_id: header_section
-    background_image: /images/logo-grey.png
+    background_image: /images/logo-bg.png
     headline: Let Us Introduce Ourselves...
     subtitle: >-
       In late 2020, after finding herself out of employment, our founder Kristina Tiffin decided to explore a new direction and flex her creative fingers. A few months later <strong>Moo Cow Design</strong> was born.

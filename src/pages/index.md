@@ -53,17 +53,17 @@ sections:
       style: primary
       arrow: false
 seo:
-  title: Moo Cow Studios
-  description: Moo Cow Studios eCommerce Site
+  title: Moo Cow Design
+  description: Moo Cow Design
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Moo Cow Studios
+      value: Moo Cow Design
       keyName: property
     - name: 'og:description'
-      value: Moo Cow Studios eCommerce Site
+      value: Moo Cow Design
       keyName: property
     - name: 'og:image'
       value: images/header.jpg
@@ -72,7 +72,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Moo Cow Studios
+      value: Moo Cow Design
     - name: 'twitter:description'
       value: The preview of the Planty theme
     - name: 'twitter:image'
