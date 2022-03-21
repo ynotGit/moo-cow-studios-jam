@@ -20,10 +20,10 @@ sections:
     icon: false
     light_title: true
     featured_products:
-      - src/pages/products/prints/product1.md
-      - src/pages/products/cards/product2.md
-      - src/pages/products/stickers/product3.md
-      - src/pages/products/cards/product4.md
+      - src/pages/products/prints/Aladdin.md
+      # - src/pages/products/cards/product2.md
+      # - src/pages/products/stickers/product3.md
+      # - src/pages/products/cards/product4.md
   - type: featured_categories_section
     section_id: featured_categories_section
     featured_categories:

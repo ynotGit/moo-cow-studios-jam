@@ -8,10 +8,10 @@ sections:
     title: Best sellers
     icon: true
     featured_products:
-      - src/pages/products/prints/product1.md
-      - src/pages/products/cards/product2.md
-      - src/pages/products/stickers/product3.md
-      - src/pages/products/cards/product4.md
+      - src/pages/products/prints/Aladdin.md
+      # - src/pages/products/cards/product2.md
+      # - src/pages/products/stickers/product3.md
+      # - src/pages/products/cards/product4.md
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
