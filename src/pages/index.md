@@ -21,9 +21,7 @@ sections:
     light_title: true
     featured_products:
       - src/pages/products/prints/aladdin.md
-      # - src/pages/products/cards/product2.md
-      # - src/pages/products/stickers/product3.md
-      # - src/pages/products/cards/product4.md
+      - src/pages/products/prints/beauty_and_beast.md
   - type: featured_categories_section
     section_id: featured_categories_section
     featured_categories:
