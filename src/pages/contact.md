@@ -3,7 +3,7 @@ title: Contact
 white_header: false
 sections:
   - type: contact_section
-    image: images/promo.jpg
+    image: images/promo.webp
     section_id: contact_section
 seo:
   title: Contact
@@ -19,7 +19,7 @@ seo:
       value: This is the Contact page
       keyName: property
     - name: 'og:image'
-      value: images/header.jpg
+      value: images/header.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -29,7 +29,7 @@ seo:
     - name: 'twitter:description'
       value: This is the Contact page
     - name: 'twitter:image'
-      value: images/header.jpg
+      value: images/header.webp
       relativeUrl: true
 template: advanced
 ---

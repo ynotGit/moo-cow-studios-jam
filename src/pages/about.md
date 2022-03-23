@@ -4,7 +4,7 @@ page_css_class: gray-background
 sections:
   - type: header_section
     section_id: header_section
-    background_image: /images/logo-bg.png
+    background_image: /images/logo-bg.webp
     headline: Let Us Introduce Ourselves...
     subtitle: >-
       In late 2020, after finding herself out of employment, our founder Kristina Tiffin decided to explore a new direction and flex her creative fingers. A few months later <strong>Moo Cow Design</strong> was born.
@@ -24,13 +24,13 @@ sections:
           <br><br>
           <strong>Moo Cow Design</strong> continues to grow with new products, including individual stickers and sticker
           sheets available soon, as well as bespoke pieces.
-        image: images/about.jpg
+        image: images/about.webp
   - type: promotion_section
     section_id: promotion_section
     title: Let's Get Personal
     subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
-    image: images/promo.jpg
-    background_image: images/mc-bg.jpg
+    image: images/promo.webp
+    background_image: images/mc-bg.webp
     cta:
       title: Get In Touch
       url: /contact
@@ -50,7 +50,7 @@ seo:
       value: This is the about page
       keyName: property
     - name: 'og:image'
-      value: images/header.jpg
+      value: images/header.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -60,7 +60,7 @@ seo:
     - name: 'twitter:description'
       value: This is the about page
     - name: 'twitter:image'
-      value: images/header.jpg
+      value: images/header.webp
       relativeUrl: true
 template: advanced
 ---

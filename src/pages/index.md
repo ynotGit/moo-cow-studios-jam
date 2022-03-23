@@ -4,7 +4,7 @@ white_header: true
 sections:
   - type: hero_section
     section_id: hero_section
-    background_image: images/header.jpg
+    background_image: images/header.webp
     background_image_opacity: 65
     content: |
       # Bring Some Magic To Your Kingdom!
@@ -45,8 +45,8 @@ sections:
     section_id: promotion_section
     title: Let's Get Personal
     subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
-    image: images/promo.jpg
-    background_image: images/mc-bg.jpg
+    image: images/promo.webp
+    background_image: images/mc-bg.webp
     cta:
       title: Get In Touch
       url: /contact
@@ -66,7 +66,7 @@ seo:
       value: Moo Cow Design
       keyName: property
     - name: 'og:image'
-      value: images/header.jpg
+      value: images/header.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -76,7 +76,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Planty theme
     - name: 'twitter:image'
-      value: images/header.jpg
+      value: images/header.webp
       relativeUrl: true
 template: home
 ---

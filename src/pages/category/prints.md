@@ -15,7 +15,7 @@ seo:
       value: Prints Store Page
       keyName: property
     - name: 'og:image'
-      value: images/category/prints.jpg
+      value: images/category/prints.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -25,7 +25,7 @@ seo:
     - name: 'twitter:description'
       value: Prints Store Page
     - name: 'twitter:image'
-      value: images/prints.jpg
+      value: images/prints.webp
       relativeUrl: true
 template: category
 ---

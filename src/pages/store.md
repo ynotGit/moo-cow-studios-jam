@@ -16,8 +16,8 @@ sections:
     section_id: promotion_section
     title: Let's Get Personal
     subtitle: Did you know we also do bespoke artwork? Specialising in minimalist style digital drawings, we can capture your special moment or special person in a unique way. Drop us a message to find out more.
-    image: images/promo.jpg
-    background_image: images/mc-bg.jpg
+    image: images/promo.webp
+    background_image: images/mc-bg.webp
     cta:
       title: Get In Touch
       url: /contact
@@ -37,7 +37,7 @@ seo:
       value: This is the store page
       keyName: property
     - name: 'og:image'
-      value: images/header.jpg
+      value: images/header.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -47,7 +47,7 @@ seo:
     - name: 'twitter:description'
       value: This is the store page
     - name: 'twitter:image'
-      value: images/header.jpg
+      value: images/header.webp
       relativeUrl: true
 template: store
 ---

@@ -15,7 +15,7 @@ seo:
       value: Cards Store Page
       keyName: property
     - name: 'og:image'
-      value: images/category/cards.jpg
+      value: images/category/cards.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -25,7 +25,7 @@ seo:
     - name: 'twitter:description'
       value: Cards Store Page
     - name: 'twitter:image'
-      value: images/category/cards.jpg
+      value: images/category/cards.webp
       relativeUrl: true
 template: category
 ---

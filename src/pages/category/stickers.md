@@ -15,7 +15,7 @@ seo:
       value: Stickers Store Page
       keyName: property
     - name: 'og:image'
-      value: images/category/stickers.jpg
+      value: images/category/stickers.webp
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -25,7 +25,7 @@ seo:
     - name: 'twitter:description'
       value: Stickers Store Page
     - name: 'twitter:image'
-      value: images/category/stickers.jpg
+      value: images/category/stickers.webp
       relativeUrl: true
 template: category
 ---
