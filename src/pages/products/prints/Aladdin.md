@@ -4,7 +4,7 @@ price: '6.49'
 title: Aladdin Minimalist Print | Disney Classic No.31
 description: >-
   Minimalist digital illustration inspired by Disney’s 1992 film Aladdin. Printed on A5 silk 170gsm paper. Please note all prints are unframed.
-default_thumbnail_image: images/products/prints/thumbnails/aladdin-printthumb.webp
+default_thumbnail_image: images/products/prints/aladdin-print.webp
 default_original_image: images/products/prints/aladdin-print.webp
 featured: true
 order: -7
@@ -33,7 +33,7 @@ seo:
     - name: 'twitter:description'
       value: 'Minimalist digital illustration inspired by Disney’s 1992 film Aladdin. Printed on A5 silk 170gsm paper. Please note all prints are unframed.'
     - name: 'twitter:image'
-      value: images/products/prints/thumbnails/aladdin-printthumb.webp
+      value: images/products/prints/aladdin-print.webp
       relativeUrl: true
 template: product
 ---
