@@ -11,7 +11,7 @@ sections:
 
       Discover our range of unique Disney film inspired prints. Find your favourite or collect them all!
     actions:
-      - title: Shop Now
+      - title: Shop All
         url: /store
         arrow: false
         style: primary
@@ -28,10 +28,11 @@ sections:
       - src/pages/products/cards/ron-loves-meat.md
       - src/pages/products/cards/hey-hot-stuff.md
       - src/pages/products/cards/friends-happy-birthday-grandma.md
-  # - type: featured_categories_section
-  #   section_id: featured_categories_section
-  #   featured_categories:
-  #     - src/pages/category/prints.md
+    actions:
+      - title: Shop All
+        url: /store
+        arrow: false
+        style: primary
   - type: testimonials_section
     section_id: testimonials_section
     title: Testimonials
