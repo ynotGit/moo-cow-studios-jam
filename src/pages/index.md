@@ -22,10 +22,10 @@ sections:
     featured_products:
       - src/pages/products/prints/brave.md
       - src/pages/products/prints/beauty-and-the-beast.md
-  - type: featured_categories_section
-    section_id: featured_categories_section
-    featured_categories:
-      - src/pages/category/prints.md
+  # - type: featured_categories_section
+  #   section_id: featured_categories_section
+  #   featured_categories:
+  #     - src/pages/category/prints.md
   - type: testimonials_section
     section_id: testimonials_section
     title: Testimonials
