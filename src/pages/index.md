@@ -22,6 +22,12 @@ sections:
     featured_products:
       - src/pages/products/prints/brave.md
       - src/pages/products/prints/beauty-and-the-beast.md
+      - src/pages/products/prints/frozen.md
+      - src/pages/products/prints/moana.md
+      - src/pages/products/cards/galentines-day.md
+      - src/pages/products/cards/ron-loves-meat.md
+      - src/pages/products/cards/hey-hot-stuff.md
+      - src/pages/products/cards/friends-happy-birthday-grandma.md
   # - type: featured_categories_section
   #   section_id: featured_categories_section
   #   featured_categories:
